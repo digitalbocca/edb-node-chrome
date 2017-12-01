@@ -1,0 +1,30 @@
+{
+  "name": "edb-node-chrome",
+  "version": "0.1.0",
+  "description": "Script de teste para o pacote npm chrome-launcher.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbocca/edb-node-chrome.git"
+  },
+  "keywords": [
+    "chrome",
+    "launcher",
+    "test"
+  ],
+  "author": "Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalbocca/edb-node-chrome/issues"
+  },
+  "homepage": "https://github.com/digitalbocca/edb-node-chrome#readme",
+  "dependencies": {
+    "chrome-launcher": "^0.9.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
