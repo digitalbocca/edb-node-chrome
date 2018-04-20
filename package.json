@@ -1,20 +1,19 @@
 {
   "name": "edb-node-chrome",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Script de teste para o pacote npm chrome-launcher.",
   "main": "index.js",
   "config": {
-    "commitMessage": "Automatizado o controle de versão"
+    "commitMessage": "Movido para o Arquivo EDB"
   },
   "scripts": {
     "dev": "node index.js",
-    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo",
     "gst": "git status",
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gta": "cross-var git tag $npm_package_version",
-    "gpo": "git push origin master --tags",
-    "gpb": "git push bb master --tags"
+    "gpo": "git push origin master --tags"
   },
   "repository": {
     "type": "git",

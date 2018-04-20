@@ -2,11 +2,19 @@
 
 ## edb-node-chrome
 
-### v0.3.0
+### v0.4.0
 
 > Abre o navegador Chrome a partir do node.
+>
+> LEGADO. Este projeto não receberá atualizações.
+>
+> Exemplo de uso validado. Movido para o Arquivo EDB.
 
 ### CHANGELOG
+
+#### Mudanças na v0.4.0
+
+- Movido para o Arquivo EDB.
 
 #### Mudanças na v0.3.0
 
