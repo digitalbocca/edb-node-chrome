@@ -11,10 +11,10 @@
  * @description Arquivo principal da aplicação.
  * @since v0.1.0
  *
- * @copyright (c)2017-2018 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
+ * @copyright (c)2017-2019 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v1.1.0
+ * @version v1.2.0
  */
 
 const chromeLauncher = require('chrome-launcher')
