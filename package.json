@@ -1,6 +1,6 @@
 {
   "name": "edb-node-chrome",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Script de teste para o pacote npm chrome-launcher.",
   "main": "index.js",
   "config": {
@@ -8,12 +8,13 @@
   },
   "scripts": {
     "dev": "node index.js",
-    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpg",
     "gst": "git status",
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gta": "cross-var git tag $npm_package_version",
-    "gpo": "git push origin master --tags"
+    "gpo": "git push origin master --tags",
+    "gpg": "git push gl master --tags"
   },
   "repository": {
     "type": "git",
@@ -31,10 +32,10 @@
   },
   "homepage": "https://github.com/digitalbocca/edb-node-chrome#readme",
   "dependencies": {
-    "chrome-launcher": "^0.12.0"
+    "chrome-launcher": "^0.13.3"
   },
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.4"
   }
 }
